@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    display: block;
+    width: 375px;
+}
+/*MPFST style*/
+#bubble {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 24px;
+    right: 12.5%;
+    top: 304px;
+    bottom: 12.5%;
+    background-image: url('/assetc/bubble.png');
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#h1FST {
+    position: absolute;
+    width: 124px;
+    height: 86px;
+    left: 24px;
+    top: 332px;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#8C51A5, #CB5E98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#buttonCreatAcc {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 24px;
+
+position: absolute;
+width: 184px;
+height: 54px;
+left: 24px;
+top: 718px;
+background: #222222;
+border-radius: 30px;
+}
+
+#FSTbutton {
+    position: static;
+width: 136px;
+height: 22px;
+left: 24px;
+top: 16px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 120%;
+background-color: #222222;
+color: #FFFFFF;
+border: none;
+}
+
+
+/*MP2SEC style*/
+
+#HAU {
+
+    position: absolute;
+    width: 327px;
+    height: 86px;
+    left: 24px;
+    top: 80px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 90%;
+    color: #222222;
+}
+
+#WYName {
+    position: absolute;
+left: 24px;
+top: 238px;
+border: none;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 90%;
+}
+
+#MP2SECbutton {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 24px;
+
+position: absolute;
+width: 90px;
+height: 54px;
+left: 24px;
+top: 718px;
+
+/* gray_dark */
+background: #999999;
+border-radius: 30px;
+}
+
+#MP2SECbuttonText {
+    position: static;
+width: 42px;
+height: 22px;
+left: 24px;
+top: 16px;
+margin: 0px auto;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 120%;
+
+/* identical to box height, or 22px */
+
+/* white */
+color: #FFFFFF;
+background-color: #999999;
+
+}
+
+/*MP2THR style*/
+
+#MP2THRH1 {
+    font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 90%;
+}
+
